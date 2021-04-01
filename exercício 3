@@ -1,0 +1,31 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	//Declaração de variaveis	
+		inteiro n1, n2, n3
+		
+	//Entrada de dados	
+		escreva("Digite o primeiro número:")
+		leia(n1)
+		escreva("Digite o segundo número:")
+		leia(n2)
+		escreva("Digite o terceiro número:")
+		leia(n3)
+
+	//Processameto e saida de dados  
+           se (n1> n2 e n1> n3) {
+			escreva ("O maior número digitado é: ", n1)
+			}
+			
+		senao se (n2> n3 e n2> n1) {
+			escreva ("O maaior número digitado é: ", n2)
+			}
+
+		senao {
+			escreva ("O maior número digitado é: ", n3)
+			}	
+		
+	}
+}
