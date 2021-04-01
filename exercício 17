@@ -1,0 +1,24 @@
+/*17 - Reescreva o código abaixo como um programa do Portugol.*/
+
+programa
+{
+	
+	funcao inicio()
+	{
+	//Declaração de variaveis 	
+		real altura, imc, peso
+
+	//Entrada de ddos 	
+		escreva("Digite seu peso: ")
+		leia(peso)
+		escreva("Digite sua altura: ")
+		leia(altura)
+		
+	//Processamennto	
+		imc= (peso) / (altura*altura)
+		
+	//Saida de dados 	
+		escreva("Seu imc é: ", imc)
+		
+	}
+}
