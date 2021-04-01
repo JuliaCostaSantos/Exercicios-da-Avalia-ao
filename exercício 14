@@ -1,0 +1,29 @@
+/*14. Olhando a imagem, como desenvolver este código em Portugol?*/
+
+programa
+{
+	
+	funcao inicio()
+	{
+	//Declaração de variavei 
+		real  prova1, prova2, prova3, prova4, media 
+
+	//Entrada de dados 
+		escreva("Digite a primeira nota: ")
+		leia(prova1) 
+		escreva("Digite a segunga nota: ")
+		leia(prova2) 
+		escreva("Digite a terceira nota: ")
+		leia(prova3) 
+		escreva("Digite a quarta nota: ")
+		leia(prova4) 
+
+	//Processamento
+		media= (prova1 +prova2 + prova3 + prova4)/4
+
+	//Saida de dados 
+		escreva("Sua media é ", media )
+		
+	}
+
+}
