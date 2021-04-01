@@ -1,0 +1,48 @@
+/*5. Faça um programa que receba dois números reais e mostre um menu de opções
+(Subtrair, Somar, Multiplicar e Dividir), realizando a operação de acordo com a opção escolhida
+no menu e mostrando o resultado.*/
+
+programa
+{
+	
+	funcao inicio()
+	{
+	//Declaração de variaveis 
+
+		real n1, n2, soma
+		inteiro operacao
+	
+	//Entrada de dados
+		escreva ("Digite o primeiro número:")
+		leia (n1)
+		
+		escreva ("Digite o segundo número:")
+		leia (n2)
+		
+		escreva ("1-Deseja fazer uma subtração? \n")
+		escreva ("2-Deseja fazer uma soma? \n")
+		escreva ("3-Deseja fazer uma multiplicação? \n")
+		escreva ("4-Deseja fazer uma divisão \n")
+		leia (operacao)
+
+	//Processamento e saida de dados
+		escolha (operacao)
+		{
+		caso 1: soma = n1-n2
+		escreva ("O resultado da sua conta é:", soma)
+		pare
+		caso 2: soma = n1 + n2
+		escreva ("O resultado da sua conta é:", soma)
+		pare
+		caso 3: soma = n1 * n2
+		escreva ("O resultado da sua conta é:", soma)
+		pare
+		caso 4: soma = n1 / n2
+		escreva ("O resultado da sua conta é:", soma)
+		pare}
+		
+
+		
+
+	}
+}
