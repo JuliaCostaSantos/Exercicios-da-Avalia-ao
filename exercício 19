@@ -1,0 +1,22 @@
+/*19 - Reescreva o código abaixo como um programa do Portugol.*/
+
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro a, b, troca
+
+
+		escreva("Digite o valor(numerico) da variavel A: ")
+		leia(a)
+		escreva("Digite o valor(numerico) da variavel B: ")
+		leia(b)
+		troca=a 
+		a=b
+		b= troca
+		escreva("O novo valor de A é: ",a,"\n")
+          escreva("O novo valor de B é: ",b)		
+		
+	}
+}
