@@ -1,0 +1,32 @@
+/*18- A Wesley Peças Automotivas calcula o preço de venda dos seus produtos com uma margem de aumento x%.
+Portanto, construa um algoritmo em Portugol que, dados o valor de custo e a margem de aumento, imprima o preço de venda.
+O usuário deve informar tanto o valor do produto quanto a margem de lucro */
+
+programa
+{
+	
+	funcao inicio()
+	{
+	//Declaração de variaveis  
+	   real x, venda, total, porcentagem, total2
+
+	//Entrada de dadoss	
+		escreva("Digite a margem de lucros: ")
+		leia(x)
+		escreva("Digite o valor do produto")
+		leia(venda)
+
+	//Processamento 
+		porcentagem= x/100 
+		total= venda * porcentagem 
+		total2 = total + venda
+
+	//Saida de dados 
+		escreva("O valor total é de ", total2)
+
+		
+		
+
+		
+	}
+}
