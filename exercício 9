@@ -1,0 +1,37 @@
+/*9. Faça um programa que imprima os 10 primeiros números inteiros maiores que 100.*/
+
+
+programa
+{
+	
+	funcao inicio()
+	{
+	//Deeclaração de varievais
+		inteiro x=100, total, total2, total3, total4, total5, total6, total7, total8, total9, total10, total11
+     
+	//Entrada de dados 
+		escreva("Numeros de 100 a 111 \n")
+	
+	//Proccessamento 	
+		total = x + 1 
+		total2 = x + 2
+		total3 = x + 3
+		total4 = x + 4
+		total5 = x + 5
+		total6 = x + 6
+		total7 = x + 7
+		total8 = x + 8
+		total9 = x + 9
+		total10 = x + 10
+		total11 = x + 11
+	
+	//Saida de dados	
+		escreva( x=100,"\n", total, "\n", total2, "\n", total3, "\n", total4, "\n", total5, "\n", total6,
+		"\n", total7, "\n", total8, "\n", total9, "\n", total10, "\n", total11)
+
+
+
+
+		
+	}
+}
