@@ -1,0 +1,23 @@
+/*10. Faça um programa que leia um valor informado pelo usuário e imprima todos os valores inteiros entre 1 (inclusive) 
+ * e onumero informado (inclusive). Considere que o número informado será sempre maior que ZERO.*/
+
+programa
+{
+	
+	funcao inicio()
+	{
+	//Declara	de variaveis
+		inteiro valor, x=1
+		
+	//Entrada de dados 
+		escreva("Digite um valor: ")
+		leia(valor)
+
+	//Processamento e saida de dados
+		enquanto(x <= valor){
+			escreva(x,"\n")
+			x++
+		}
+		
+	}
+}
