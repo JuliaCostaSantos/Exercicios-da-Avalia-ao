@@ -1,0 +1,28 @@
+/*8. Faça um programa que exiba os números de 1 (inclusive) a 10 (inclusive) em ordem decrescente*/
+
+programa
+{
+	
+	funcao inicio()
+	{
+	//Declaração de variaveis 
+		inteiro x=1, total, total2, total3, total4, total5, total6, total7, total8, total9
+		
+	//Entrada de dados 	
+		escreva("Ordem decrescente","\n")
+
+    //Processameto      
+	total= x+1
+	total2 = x +2
+	total3 = x +3 
+	total4 = x +4
+	total5 = x +5
+	total6 = x +6
+	total7 = x +7
+	total8 = x +8
+	total9 = x +9
+
+	//Saida de dados 
+        escreva (total9,"\n", total8, "\n",total7,"\n",total6,"\n",total5,"\n",total4,"\n",total3,"\n",total2,"\n",total,"\n",x)
+	}
+}
