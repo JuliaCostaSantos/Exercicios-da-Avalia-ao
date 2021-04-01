@@ -1,40 +1,58 @@
-/*4. Faça um programa que leia 3 valores (considere que não serão informados valores iguais) e escrever a soma dos 2 maiores.*/
-
 programa
 {
 	
 	funcao inicio()
 	{
-	//Declaração de variaveis 	
-		real n1, n2, soma
-	     inteiro operacao
 
-	//Entrada de dados 
-		escreva ("Digite o primeiro número:")
-		leia (n1)
+	//Declaração de variaveis	
+		inteiro n1, n2, n3, total, total2, total3, total4, total5, total6
 		
-		escreva ("Digite o segundo número:")
-		leia (n2)
+	//Entrada de dados	
+		escreva("Digite o primeiro número:")
+		leia(n1)
+		escreva("Digite o segundo número:")
+		leia(n2)
+		escreva("Digite o terceiro número:")
+		leia(n3)
+
+	//Processameto 
+        
+           total=n1+n2
+           total2= n2+n1
+           total3= n2+ n3
+           total4= n3+n2
+           total5=n1+n3
+           total6=n3+n1
+           
+    //Saida de dados	
+			
+		se (n2> n3 e n2> n1 e n1 > n3) {
+			escreva ("a soma dos dois maioras numeros é: ", total)
+			}
+
+	senao se (n2 > n3 e n2 < n1 e n1 > n3){
+		escreva("A soma dos dois maiores números é: ", total2)
+	}
 		
-		escreva ("1-Deseja fazer uma subtração? \n")
-		escreva ("2-Deseja fazer uma soma? \n")
-		escreva ("3-Deseja fazer uma multiplicação? \n")
-		escreva ("4-Deseja fazer uma divisão \n")
-		leia (operacao)
-	//Processamento e saida de dados 
-		escolha (operacao)
-		{
-		caso 1: soma = n1-n2
-		escreva ("O resultado da sua conta é:", soma)
-		pare
-		caso 2: soma = n1 + n2
-		escreva ("O resultado da sua conta é:", soma)
-		pare
-		caso 3: soma = n1 * n2
-		escreva ("O resultado da sua conta é:", soma)
-		pare
-		caso 4: soma = n1 / n2
-		escreva ("O resultado da sua conta é:", soma)
-		pare}
+		senao se (n2 > n1 e n2 > n3 e n3 > n1) {
+			escreva ("A soma dos dois maiores números é: ", total3)
+		}
+		
+		senao se( n2 > n1 e n2< n3 e n3 >n1){
+			escreva("A soma dos dois maiores números é: ", total4)
+		}
+     
+         senao se (n1 > n2 e  n1> n3 e n3>n2){
+         	escreva("A soma dos dois maiores números é: ", total5)
+         }
+
+         senao se (n1 > n2 e n3 > n1 e n3 > n2){
+         	escreva("A soma dos dois maiores números é:", total6)
+         }
+			
+			
+				
+	
+
 	}
 }
