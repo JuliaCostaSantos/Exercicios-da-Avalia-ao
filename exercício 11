@@ -1,0 +1,41 @@
+/*11. Faça um programa que 10 valores informados pelo usuário,
+calcule, exiba os números informados e escreva a média aritmética desses valores lidos.*/
+
+programa
+{
+	
+	funcao inicio()
+	{
+	//Declaração de variaveis 
+	real n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, total
+	
+	//Entrada de dados 
+		escreva("Digite a primeira nota: \n")
+		leia(n1)	
+		escreva("Digite a segunda nota: \n")
+		leia(n2)
+		escreva("Digite a terceira nota: \n")
+		leia(n3)
+		escreva( "Digite a quarta nota: \n" )
+		leia(n4)
+		escreva("Digite a quinta nota: \n")
+		leia(n5)	
+		escreva("Digite a sexta nota: \n")
+		leia(n6)
+		escreva("Digite a setima nota: \n")
+		leia(n7)
+		escreva( "Digite a oitava nota: \n" )
+		leia(n8)
+		escreva("Digite a nona nota: \n")
+		leia(n9)
+		escreva( "Digite a decima nota: \n" )
+		leia(n10)
+
+	//Processamento 
+		total=(n1+n2+n3+n4+n5+n6+n7+n8+n9+n10)/10		
+
+	//Saida de dados 
+		escreva("Sua medía é: ", total)	
+		
+	}		
+}
