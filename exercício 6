@@ -1,0 +1,31 @@
+programa
+{
+	
+	funcao inicio()
+	{
+			//Declaração de variaveis 
+		inteiro n1,n2
+
+	//Entrada de dados	
+		escreva("Digite o primeiro numero:")
+		leia(n1)
+		escreva("Digite o segundo numero:")
+		leia(n2)
+	//Proocessamento e saida de dados
+		se(n1 > n2){
+			escreva("Primeiro é maior. ")
+		}
+
+		senao se (n1 == n2){
+			escreva("Numeros iguais. ")
+		}
+
+		senao{
+			escreva("Segundo numero é maior. ")
+			
+		}
+	
+	
+
+	}
+}
