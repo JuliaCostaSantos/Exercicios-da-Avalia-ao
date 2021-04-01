@@ -1,0 +1,39 @@
+/*12. Faça um programa que leia 10 números informados pelo usuário e ao final da leitura escrever a soma total dos 10 números lidos.  */
+
+programa
+{
+	
+	funcao inicio()
+	{
+		//Declaração de variaveis 
+	real n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, total
+	
+	//Entrada de dados 
+		escreva("Digite o primeiro numero: ")
+		leia(n1)	
+		escreva("Digite o segundo numero: \n")
+		leia(n2)
+		escreva("Digite o terceiro numero: \n")
+		leia(n3)
+		escreva( "Digite o quarto numero: \n" )
+		leia(n4)
+		escreva("Digite o quinto numero: \n")
+		leia(n5)	
+		escreva("Digite o sexto numero: \n")
+		leia(n6)
+		escreva("Digite o setimo numero: \n")
+		leia(n7)
+		escreva( "Digite o oitavo numero: \n" )
+		leia(n8)
+		escreva("Digite o nono numero: \n")
+		leia(n9)
+		escreva( "Digite o decimo numero: \n" )
+		leia(n10)
+
+	//Processamento 
+		total=n1+n2+n3+n4+n5+n6+n7+n8+n9+n10
+
+	//Saida de dados
+		escreva("O resultado da soma é: ", total)		
+    }
+    }
